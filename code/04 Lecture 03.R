@@ -5,7 +5,7 @@ library(lubridate)
 
 library(gdata) 
 
-ener <- as_data_frame(read.xls("CT474/data/IrelandData January 2017.xlsx"),
+ener <- as_data_frame(read.xls("code/data/IrelandData January 2017.xlsx"),
                       stringsAsFactors=F)
 
 ener <- mutate(ener, DateTime    =  ymd_hms(DateTime),

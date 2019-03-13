@@ -2,7 +2,7 @@ library(readr)
 library(tidyr)
 library(dplyr)
 
-wd <- read_csv("data/ExamDataCsv.csv")
+wd <- read_csv("code/data/ExamDataCsv.csv")
 
 td <- gather(wd,key=Subject,value=Mark,
                 CX1000:CX1009)

@@ -4,7 +4,7 @@ library(ggplot2)
 library(tidyr)
 library(lubridate)
 
-d <- read_csv("data/Ireland300Years.csv")
+d <- read_csv("code/data/Ireland300Years.csv")
 
 nd <- d %>% mutate(Date=ymd(paste0(Date,"28")),
                    MonthNumber=as.integer(month(Date)),
@@ -60,4 +60,4 @@ nd %>% group_by(Season) %>%
             Min=min(Precip.MM),
             YearMin=Year[which(Precip.MM==min(Precip.MM))])
 
-write.csv(x = nd, "CT474/data/Ireland300YearsUpdated.csv")
+write.csv(x = nd, "code/data/Ireland300YearsUpdated.csv")

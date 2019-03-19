@@ -1,6 +1,6 @@
 ---
 output: github_document
-title:  Lecture 6 (dplyr) - Summary
+title:  Lecture 2 (dplyr) - Summary
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->

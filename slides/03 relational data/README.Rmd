@@ -1,6 +1,6 @@
 ---
 output: github_document
-title:  Lecture 7 (Relational Data and tidyr) - Summary
+title:  Lecture 3 (Relational Data and tidyr) - Summary
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->

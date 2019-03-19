@@ -1,7 +1,3 @@
----
-output: github_document
-title:  Course Overview
----
 # CT474 
 Energy Analytics @NUI Galway 
 

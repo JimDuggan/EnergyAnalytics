@@ -11,8 +11,6 @@ ad <- td %>%
        group_by(StudentID) %>%
        summarise(AverageGrade = mean(Mark),
                  MaxGrade     = max(Mark),
-                 MinGrade     = min(Mark),
-                 MaxSubject = Subject[which.max(Mark)],
-                 MinSubject = Subject[which.min(Mark)])
+                 MinGrade     = min(Mark))
 
 
